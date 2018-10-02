@@ -907,3 +907,16 @@ div#closemenu {
   .playicon{display:none!important;visibility: hidden:!important;opacity:0!important}
   .auteur, .categorie, .titre{display:block!important;visibility: visible:!important;opacity:1!important}
 }
+
+@media screen and (max-height: 800px) {
+.contacttitle, .directorstitle {
+    padding-top: 0px!important;
+}
+.directorstitle {
+    margin-bottom: 0px!important;
+}  
+overlaymenu {
+    padding-top: 0px!important;
+}
+  
+}
