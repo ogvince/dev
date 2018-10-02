@@ -250,10 +250,11 @@ ul {
   margin: 10px auto 0;
   padding: 0;
   list-style: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto
+  width: auto;
 }
 
 a.underline {
@@ -336,10 +337,10 @@ a.underline:hover:after {
 .directorstitle {
   pointer-events: none;
   position: relative;
-  left: 10px;
+  left: 5px;
   padding-bottom: 1px;
   margin-bottom: 12px;
-  border-bottom: 2px solid #d1b47e
+  border-bottom: 2px solid #d1b47e;
 }
 
 @keyframes fadein {
@@ -605,9 +606,9 @@ a.socialmedia {
 }
 
 #directors, #photographers {
-  display: block;
+  display: flex;
   transition: opacity .1s linear;
-  color: #fff
+  color: #fff;
 }
 
 .visible {
@@ -910,7 +911,7 @@ div#closemenu {
 
 @media screen and (max-height: 800px) and (min-width: 600px){
 .contacttitle, .directorstitle {
-    padding-top: 0px!important;
+    padding-top: 10px!important;
 }
 .directorstitle {
     margin-bottom: 0px!important;
