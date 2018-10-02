@@ -908,7 +908,7 @@ div#closemenu {
   .auteur, .categorie, .titre{display:block!important;visibility: visible:!important;opacity:1!important}
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 800px) and (min-width: 600px){
 .contacttitle, .directorstitle {
     padding-top: 0px!important;
 }
