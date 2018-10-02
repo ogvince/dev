@@ -911,7 +911,7 @@ div#closemenu {
 
 @media screen and (max-height: 800px) and (min-width: 600px){
 .contacttitle, .directorstitle {
-    padding-top: 10px!important;
+    padding-top: 30px!important;
 }
 .directorstitle {
     margin-bottom: 0px!important;
